@@ -1,0 +1,40 @@
+body {
+  color: #ddd;
+  background-color: whitesmoke;
+  margin: 0; }
+
+header {
+  background-color: red;
+  width: 100%;
+  top: 0; }
+  header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0; }
+    header ul li {
+      display: inline; }
+
+.headroom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all .2s ease-in-out; }
+
+.headroom--unpinned {
+  top: -100px; }
+
+.headroom--pinned {
+  top: 0; }
+
+.container {
+  max-width: 300px;
+  width: 100%;
+  margin: 50px auto; }
+  .container h1 {
+    font-size: 2em;
+    margin: 10px 0; }
+  .container p {
+    font-size: 1em;
+    margin: 0 0 10px;
+    color: lightslategray; }
